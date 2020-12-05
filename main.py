@@ -26,7 +26,7 @@ if int(veprime) == 1:
     database_insert(app, emaili, password)
 elif int(veprime) == 2:
     admin = input("Give the password admin: ")
-    if admin == 'AminiMadh':
+    if admin == 'Admin password':
         print("The password are: ")
         database_output()
     else:
